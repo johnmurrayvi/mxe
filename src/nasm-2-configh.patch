@@ -1,0 +1,11 @@
+--- a/rdoff/Makefile.in	2014-03-31 13:26:25.216135636 -0400
++++ b/rdoff/Makefile.in	2014-03-31 11:51:46.262752902 -0400
+@@ -19,7 +19,7 @@
+ CC		= @CC@
+ CFLAGS		= @CFLAGS@
+ BUILD_CFLAGS	= $(CFLAGS) @DEFS@
+-INTERNAL_CFLAGS = -I$(srcdir) -I$(top_srcdir)
++INTERNAL_CFLAGS = -I$(srcdir) -I$(top_srcdir) -I..
+ ALL_CFLAGS	= $(BUILD_CFLAGS) $(INTERNAL_CFLAGS)
+ LDFLAGS		= @LDFLAGS@
+ 

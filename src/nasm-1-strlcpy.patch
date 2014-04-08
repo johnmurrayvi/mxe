@@ -1,0 +1,11 @@
+--- a/Makefile.in	2014-03-31 13:25:14.299615045 -0400
++++ b/Makefile.in	2014-03-31 11:51:33.614753509 -0400
+@@ -88,7 +88,7 @@
+ 	macros.$(O) listing.$(O) eval.$(O) exprlib.$(O) stdscan.$(O) \
+ 	strfunc.$(O) tokhash.$(O) regvals.$(O) regflags.$(O) \
+ 	ilog2.$(O) \
+-	lib/strlcpy.$(O) \
++	$(srcdir)/lib/strlcpy.$(O) \
+ 	preproc-nop.$(O) \
+ 	disp8.$(O) \
+ 	iflag.$(O)
